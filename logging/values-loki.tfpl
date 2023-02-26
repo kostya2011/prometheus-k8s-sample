@@ -10,7 +10,6 @@ loki:
   commonConfig:
     path_prefix: /var/loki
     replication_factor: 1
-  # https://github.com/grafana/loki/issues/4466#issuecomment-1078960849
   storage:
     bucketNames:
       chunks: chunks
